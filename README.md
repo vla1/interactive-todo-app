@@ -1,5 +1,5 @@
 # Interactive Todo app
-                                    Live site ```HTML <a href="https://redux.js.org/tutorials/quick-start"></a>```
+                                                          Live site [Here](https://redux.js.org/tutorials/quick-start)
 ### Solution
 
 ![](./src/assets/solution/screenshot-todoList.PNG)

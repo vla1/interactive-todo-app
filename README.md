@@ -1,5 +1,7 @@
 # Interactive Todo app
-                                    Live site <p align="center">Live Site <a href="https://interactive-todo-list-app.netlify.app/">Here</a>.</p>
+
+Live site <p align="center">Live Site <a href="https://interactive-todo-list-app.netlify.app/">Here</a>.</p>
+
 ### Solution
 
 ![](./src/assets/solution/screenshot-todoList.PNG)

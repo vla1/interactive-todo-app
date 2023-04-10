@@ -1,6 +1,6 @@
 # Interactive Todo app
 
-Live site <p align="center">Live Site <a href="https://interactive-todo-list-app.netlify.app/">Here</a>.</p>
+<p align="center">Live Site <a href="https://interactive-todo-list-app.netlify.app/">Here</a>.</p>
 
 ### Solution
 
@@ -16,9 +16,9 @@ Start development server
 ```html
 npm start
 ```
-Generate build production
+### Generate build production
 ```html
-npm build
+npm run build
 ```
 
 ### The challenge
@@ -33,13 +33,6 @@ Users should be able to:
 - Filter by all/active/complete todos
 - Clear all completed todos
 - Toggle light and dark mode
-
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 
 ### Built with
 

@@ -1,0 +1,137 @@
+.buttons-filter-mobile {
+    display: none;
+}
+
+.todo-list-container .info-list {
+    padding: 2.4rem;
+}
+
+.todo-list-container {
+    background-color: white;
+    border-radius: 1rem;
+    margin-bottom: 6.8rem;
+    box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
+}
+
+.App.dark-mode .todo-list-container {
+    background-color: var(--color-very-dark-desaturated-blue);
+    box-shadow: -1px 5px 20px 10px rgba(37, 39, 60, 0.2);
+}
+
+.todo-list {
+    list-style: none;
+}
+
+.todo-list li {
+    display: flex;
+    height: 6.4rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    gap: 2.4rem;
+    border-bottom: 0.1rem solid var(--color-very-light-grayish-blue);
+}
+
+.App.dark-mode li {
+    border-bottom-color: var(--color-dark-very-dark-grayish-blue-hover);
+}
+
+.todo-list li.completed p {
+    color: var(--color-light-grayish-blue);
+    text-decoration-line: line-through;
+}
+
+.App.dark-mode .todo-list li.completed p {
+    color: var(--color-dark-very-dark-grayish-blue);
+}
+
+.todo-list .btn-interaction {
+    display: flex;
+    width: 2.4rem;
+    height: 2.4rem;
+    gap: 1.5rem;
+    border-radius: inherit;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.todo-list .btn-interaction .complete-btn,
+.todo-list .btn-interaction .trash-btn {
+    border: none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.App.dark-mode .todo-list .btn-interaction .complete-btn,
+.App.dark-mode .todo-list .btn-interaction .trash-btn {
+    background-color: var(--color-dark-very-dark-grayish-blue);
+}
+
+.buttons-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem;
+    border-top: 0.1rem solid var(--color-very-light-grayish-blue);
+}
+
+.App.dark-mode .buttons-filter {
+    border-top-color: var(--color-dark-very-dark-grayish-blue-hover);
+}
+
+.btn-filter {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn.active,
+.App.dark-mode .btn.active {
+    color: var(--color-gradient-start);
+    font-weight: 700;
+}
+
+.buttons-filter.group {
+    display: flex;
+    gap: 1rem;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .buttons-filter-desktop .buttons-filter-component {
+        display: none;
+    }
+
+    .todo-list-container {
+        margin-bottom: 2.4rem;
+    }
+
+    .buttons-filter-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 1rem;
+        padding: 3.4rem;
+        box-shadow: -1px 5px 20px 10px rgba(157, 162, 235, 0.3);
+
+    }
+
+    .App.dark-mode .buttons-filter-mobile {
+        background-color: var(--color-very-dark-desaturated-blue);
+        box-shadow: -1px 5px 20px 10px rgba(37, 39, 60, 0.2);
+    }
+
+    /* Themes */
+    .App.light-mode {
+        background-image: url(../../assets/images/bg-mobile-light.jpg);
+    }
+
+    .App.dark-mode {
+        background-image: url(../../assets/images/bg-mobile-dark.jpg);
+    }
+}

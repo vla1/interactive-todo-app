@@ -1,0 +1,49 @@
+#form {
+    background-color: white;
+    height: 4.4rem;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    padding: 1.4rem;
+    border-radius: 1rem;
+    margin-bottom: 2.4rem;
+}
+
+.App.dark-mode #form {
+    background-color: var(--color-very-dark-desaturated-blue);
+}
+
+.App.dark-mode .input {
+    background-color: var(--color-very-dark-desaturated-blue);
+    color: var(--color-light-grayish-blue)
+}
+
+#form input[type="text"] {
+    width: 100%;
+}
+
+input.input {
+    font-size: 1.8rem;
+    border: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+#form input[type="text"] {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-submit {
+    border: none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.App.dark-mode .btn-submit {
+    background-color: var(--color-dark-very-dark-grayish-blue);
+}
